@@ -1,0 +1,102 @@
+/* HTML cleanup */
+address { font-style:normal }
+
+/* simple */
+span.fs { display:none }
+body { font-family:Verdana, sans-serif;background:#fff;color:#000 }
+
+/* resume specific */
+body.resume {font-size:12px}
+body.resume {/*border-top:solid medium silver;*/ margin-top:.5em; padding-top:.5em}
+.resume h1,.resume h2,.resume h3,.resume h4,.resume h5,.resume h6 {margin:0;font-size:1em}
+.resume h4 { display:inline; margin-right:.4em }
+.resume p {text-indent:0}
+.resume div,.resume span {margin-top:0; margin-bottom:0; padding-top:0; padding-bottom:0;}
+.resume ol,.resume ul {margin:0; padding:0}
+.resume ol {list-style:none}
+.patents ol {list-style:decimal;font-weight:bold}
+.patents h4,.patents a {font-weight:normal}
+.issued>ol {list-style-position:inside}
+.resume ul ol { display:inline }
+.resume ul ol li,.compexps li,.education li { display:inline;margin:0;padding:0;text-indent:0 }
+div.resumeheader,h1,address {text-align:center; margin:0 1.2in}
+
+.resume .quals,
+.resume .job,
+.resume .school,
+.resume .issued,
+.resume .pending,
+.resume .compexp,
+.resume .award,
+.resume .interest,
+.resume .reference  {margin:1em .5em .1em 1.2in}
+.resume .copyright { text-align:center; font-size:xx-small; margin-top:4em }
+.resume .school {margin-top:0}
+
+.publications li,
+.references div,
+.compexps ul,
+.awards li,
+.interests li {margin:0 .5em .1em 1.2in}
+.publications li,.patents li { margin-top:.5em }
+
+.compexps ul ul,.education ol ol,.education ol ul {padding:0;margin:0;display:inline }
+.education h3,.education li { display:inline }
+li.school { display:block }
+
+.resume .dates,.resume .sidelabel,.publications h3 {float:left; clear:left; margin-left:-1.2in; width:1.2in }
+.resume .sidelabel { display:block; float:none }
+.resume .sidelabel:first-child { float:left }
+.publications h3 { margin-left:0; margin-top:.55em; font-size:.9em }
+h4 .dates,.education .dates { font-weight:normal }
+h5 .jobinfo { font-weight: normal; font-style: italic; }
+
+.resume h1 {font-size:2em; margin-top:1em}
+.resume h2 {margin-top:1.5em; margin-bottom:.5em; text-align:center}
+
+.resume .company,.resume .company:link,.resume .company:visited,
+.resume .institution,.resume .institution:link,.resume .institution:visited 
+{font-weight: bold; font-variant:small-caps; margin-right:.4em}
+
+.resume .location {font-weight:bold}
+.publications .location {font-weight:normal}
+.resume .jobtitle {font-weight:bold}
+.resume .products,.completed li {margin-left:1.5em; list-style-type:disc}
+.resume .productdetail,.completed li {margin-left:2em; list-style-type:circle}
+.resume .completed {margin-bottom:.5em}
+.resume .versions {font-size:.85em}
+
+.resume .experience,
+.resume .education,
+.resume .compexps,
+.resume .awards,
+.resume .patents,
+.resume .interests,
+.resume .references {clear:both; margin-top:.3em}
+.patents li {margin-bottom:.1em}
+
+.email,.web {font-family:"Courier New",monospace}
+ 
+:link {color:#039; background:white; text-decoration:none}
+:visited {color:#007; background:white; text-decoration:none}
+a:hover {background:#bff; text-decoration:none;}
+a:active {background:#0ff; text-decoration:none;}
+
+.publications .publisher { font-style:italic }
+.publications .title { text-decoration:underline }
+.publications { margin-top:2em }
+
+/* obsolete rules - for older version of resume */
+.resume .sectitle 
+{font-weight:bolder; font-size:1em; margin-left:0in; margin-top:1em}
+.resume .label {font-weight: bold}
+.resume .datesQ,.resume .sidelabelQ {float:left; clear:left; margin-left:-1.2in; width:1.2in }
+.resume .datesQ,.resume .sidelabelQ 
+{margin-top:1px; /* margin-top:1px is a hack - should be unnecessary */}
+.resume .datesQ:first-child,.resume .sidelabelQ:first-child
+{margin-top:0} /* for compliant browsers */
+.resume .job .datesQ:first-child,.resume .job .sidelabelQ:first-child
+{font-weight:bold}
+.product p {margin-left:2.5em}
+.resume .patent {margin-bottom:.1em}
+.resume .patentno {font-weight:bold}
